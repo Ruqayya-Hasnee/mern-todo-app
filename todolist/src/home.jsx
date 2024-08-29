@@ -20,14 +20,21 @@ function Home() {
                     ? 
                     <div><h2>No Record</h2></div>
                     :
-                     todos.map((todo => (
+                     todos.map(todo => (
                         <div className='task'>
+                          <div>
                           <p>{todo.task}</p>
+                          </div>
                         </div>
                     ))
-           ) }
+            }
         </div>
     );
 }
 
 export default Home;
+
+
+
+
+

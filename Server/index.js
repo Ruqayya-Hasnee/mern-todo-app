@@ -16,6 +16,7 @@ app.get('/get', (req, res) => {
 })
 
  app.post('/add', (req, res) => {
+   console.log(req.body)
     const task = req.body.task;
     TodoModel.create({
     task: task
