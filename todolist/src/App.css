@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
 }
-.create_form input{
+
+.create_form input {
   width: 300px;
   padding: 10px;
   border-bottom: 2px solid;
@@ -16,7 +17,8 @@
   color: white;
   cursor: pointer;
 }
-.task{
+
+.task {
   display: flex;
   align-items: center;
   width: 345px;
@@ -27,19 +29,24 @@
   padding: 2px 5px 2px 5px;
   margin-top: 2px;
 }
-
-.checkbox{
+.checkbox {
   display: flex;
   align-items: center;
 }
 
-.checkbox .icon{
+.line_through {
+  text-decoration: line-through;
+}
+
+.checkbox .icon {
   margin-right: 5px;
   font-size: 15px;
 }
-.task div span{
+
+.task div span {
   margin: 0px 5px 0px 4px;
 }
-.task div .icon{
-  cursor: pointer;
+
+.task div .icon {
+  cursor: pointer;
 }
